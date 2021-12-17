@@ -4,4 +4,16 @@
  */
 
 // Стили для файла с примером HTML-фрагмента
-@import './example';
+@import './base/reset';
+
+@import './utils/hidden';
+
+@import './layout/header';
+@import './layout/footer';
+
+@import './_components.scss/connectivity';
+@import './_components.scss/example';
+@import './_components.scss/explore';
+@import './_components.scss/hero';
+@import './_components.scss/potencial';
+@import './_components.scss/wifi';
