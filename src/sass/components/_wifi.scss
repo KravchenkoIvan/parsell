@@ -1,11 +1,14 @@
-.container {
+.section-wifi {
   background-image: url('../images/rectangle.jpg');
   background-size: cover;
   background-position: center;
+  height: 1179px;
 }
 
 .wifi-list {
-  color: #ffffff;
   display: flex;
   justify-content: space-between;
+}
+.wifi-list__item {
+  color: #ffffff;
 }
