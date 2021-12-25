@@ -1,0 +1,11 @@
+.container {
+  background-image: url('../images/rectangle.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.wifi-list {
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
