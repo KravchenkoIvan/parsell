@@ -1,0 +1,26 @@
+.header__text{
+    font-size: 14px;
+line-height: 1.64;
+text-align: center;
+letter-spacing: 0.10998px;
+color:#fff;
+background-color: #161F49;
+padding: 5px;
+}
+
+.logo{
+    width: 107px;
+    height: 47px;
+    margin-left: 36px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+   
+}
+.header__list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__item:not(:last-child){
+    margin-right: 37px;
+}

@@ -1,0 +1,24 @@
+.covers {
+  background-color: #161f49;
+  width: 1440px;
+  height: 840px;
+
+  &__title {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 1.2;
+    text-align: center;
+    color: #ffffff;
+  }
+  &__text {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: center;
+    color: #ffffff;
+  }
+  &__button {
+    background: #2468ff;
+    border-radius: 0px;
+  }
+}
