@@ -1,8 +1,10 @@
 .explore {
+    padding-top: 66px;
 }
 .container {
 }
 .explore_container {
+    text-align: center;
 }
 .explore_info {
     font-family: Roboto;
@@ -45,6 +47,11 @@ color: #404040;
     color: #404040;
 }
 .explpre__link_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
     width: 244px;
     height: 62px;
     background: #2468FF;
@@ -56,4 +63,10 @@ color: #404040;
     letter-spacing: 0.11px;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin-bottom: 130px;
+}
+.bgesvg{
+    background-color: aqua;
+    width: 928px;
+    height: 747px;
 }
