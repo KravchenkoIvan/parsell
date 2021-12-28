@@ -1,19 +1,45 @@
 <section class="eero">
-<h2>Find your eero system</h2>
-<ul>
-    <li>
-        <svg>
-            <use href="./src/symbol-defs.svg#icon-eero">
-            </use>
-        </svg>
+    <div class="container">
+    <h2 class="eero__title">Find your eero system</h2>
+    <ul class="eero__numbers__list">
+        <li class="eero__numbers__item">1</li>
+        <li class="eero__numbers__item">2</li>
+        <li class="eero__numbers__item">3</li>
+        <li class="eero__numbers__item">4</li>
+    </ul>
 
-    </li>
-    <li>
-        <svg>
-            <use href="./src/symbol-defs.svg#icon-eero">
-            </use>
-        </svg>
+     <img  class="eero__img"
+        srcset="
+        ./src/images/Rectangle-eero@1.jpg 1x,
+        ./src/images/Rectangle-eero@1.jpg 2x
+        "
+        src="./src/images/Rectangle-eero@1.jpg" alt="eero">
 
-    </li>
-</ul>
+    <div class="eero__buttons">
+          <p class="eero__buttons__prev">I have a</p>
+            <ul class="eero__buttons__list">
+                <li class="eero__buttons__item"> 
+                    <button type="button">
+                        smaller
+                    </button>
+                </li>
+                <li class="eero__buttons__item">
+                    <button type="button">
+                        medium
+                    </button>
+                </li>
+                <li class="eero__buttons__item">
+                    <button type="button">
+                        larger
+                    </button>
+                </li>
+
+            </ul>  
+          <p class="eero__buttons__post">home.</p>
+    </div>
+
+    <button class="eero__button-last" type="button">
+        Next
+    </button>
+</div>
 </section>
