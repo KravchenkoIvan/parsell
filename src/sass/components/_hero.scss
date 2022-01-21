@@ -1,19 +1,27 @@
-.hero {
-  background-color: tomato;
+
+.hero{
+    background-image: url('../images/hero-bgr.jpg');
+    background-size: cover;
+    background-position: center;
+    max-width: 1440px;
+    padding: 300px 0px;
 }
 
-.hero__title {
-  font-weight: 400;
-  font-size: 72px;
-  line-height: 1.11;
-  color: #ffffff;
+.hero__title{
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 1.11;
+    color: #FFFFFF;
+    text-align: center;
 }
 
-.hero__text {
-  font-weight: 400;
-  font-size: 21px;
-  line-height: 1.38;
-  color: #ffffff;
+.hero__text{
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 1.38;
+    color: #FFFFFF;
+    text-align: center;
+
 }
 
 .hero__btn {
